@@ -11,7 +11,7 @@ export default function ConvexClientProvider({
     children: React.ReactNode;
   }>) {
     return (
-        <ClerkProvider>
+        <ClerkProvider afterSignOutUrl="/">
             <ConvexProviderWithClerk
                 client={convex}
                 useAuth={useAuth}
