@@ -13,7 +13,6 @@ export default function DashboardLayout({
     <NavigationProvider>
       <div className="flex h-screen">
         <Authenticated>
-          <h1>SideBar</h1>
           <SideBar />
         </Authenticated>
 
