@@ -62,6 +62,9 @@ importers:
       react-dom:
         specifier: ^19.0.0
         version: 19.0.0(react@19.0.0)
+      react-timeago:
+        specifier: ^8.0.0
+        version: 8.0.0(react@19.0.0)
       tailwind-merge:
         specifier: ^3.0.2
         version: 3.0.2
@@ -2684,6 +2687,11 @@ packages:
     peerDependenciesMeta:
       '@types/react':
         optional: true
+
+  react-timeago@8.0.0:
+    resolution: {integrity: sha512-I/Lsewkw87xryZVXU8mv8o2lsnxTd7uHBJF9fl76vRx/GkAFNctgSg9q0hOKvgv9V6cTXmDiuXJJYyblD4kGRA==}
+    peerDependencies:
+      react: ^16.0.0 || ^17.0.0 || ^18.0.0 || ^19.0.0
 
   react@19.0.0:
     resolution: {integrity: sha512-V8AVnmPIICiWpGfm6GLzCR/W5FXLchHop40W4nXBmdlEceh16rCN8O8LNWm5bh5XUX91fh7KpA+W0TgMKmgTpQ==}
@@ -5847,6 +5855,10 @@ snapshots:
       tslib: 2.8.1
     optionalDependencies:
       '@types/react': 19.0.10
+
+  react-timeago@8.0.0(react@19.0.0):
+    dependencies:
+      react: 19.0.0
 
   react@19.0.0: {}
 
